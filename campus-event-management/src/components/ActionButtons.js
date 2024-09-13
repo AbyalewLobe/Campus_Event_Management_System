@@ -2,8 +2,6 @@ import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import axios from "axios";
-import UserDetailsModal from "./UserDetailsModal";
 import EventDetailModal from "./EventDetailModal";
 
 function ActionButtons() {
