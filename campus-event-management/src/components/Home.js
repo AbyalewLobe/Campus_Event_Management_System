@@ -4,28 +4,28 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="w-full h-full ">
-      <div className="flex justify-between p-3 bg-blue-600 text-black">
+      <div className="flex justify-between p-3 bg-red-600 text-black">
         <div className="ml-10 font-bold uppercase">
           <h1>AAU Events</h1>
         </div>
         <div className="text-black ">
           <a className="p-2" href="">
             {" "}
-            <Link to="/" className="text-black">
+            <Link to="/" className="text-white">
               Home
             </Link>{" "}
           </a>
           <a className="p-2" href="">
-            <Link to="/AdminLogin" className="text-black">
+            <Link to="/AdminLogin" className="text-white">
               Admin
             </Link>
           </a>
           <a className="p-2" href="">
-            <Link to="/StudentLogin" className="text-black">
+            <Link to="/StudentLogin" className="text-white">
               Student
             </Link>
           </a>
-          <a className="p-2 text-black " href="#footer">
+          <a className="p-2 text-white " href="#footer">
             About
           </a>
         </div>
@@ -45,7 +45,7 @@ const Home = () => {
             </p>
             <div></div>
             <Link to="/UserRegistration">
-              <div className=" inline-flex items-center px-6 py-3 text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-lg shadow-md transition duration-300 ease-in-out mt-10">
+              <div className=" inline-flex items-center px-6 py-3 text-white bg-red-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-lg shadow-md transition duration-300 ease-in-out mt-10">
                 <div>
                   <span className=" flex text-sm font-light ">
                     {" "}

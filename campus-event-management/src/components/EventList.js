@@ -65,13 +65,14 @@ const EventList = () => {
                     <p className="leading-relaxed mb-3">
                       Description: {event.description}
                     </p>
-                    <div className="flex items-center flex-wrap bg-blue-500 p-2 rounded-lg">
+                    <div className="flex items-center justify-between flex-wrap bg-red-500 p-2 rounded-lg">
                       <a
                         href="#"
                         className="text-indigo-900 hover:text-white inline-flex items-center md:mb-2 lg:mb-0"
                       >
                         <Link to="/RegisterForEvent">Register Now</Link>
                       </a>
+                      <p className="text-white "> > </p>
                     </div>
                   </div>
                 </div>

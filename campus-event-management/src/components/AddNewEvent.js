@@ -95,7 +95,7 @@ function AddNewEvent() {
 
             <button
               onClick={handleClick}
-              className="p-2 border bg-blue-400 rounded-lg text-sm font-semibold"
+              className="p-2 border bg-red-600 rounded-lg text-sm font-semibold"
             >
               Add Event
             </button>

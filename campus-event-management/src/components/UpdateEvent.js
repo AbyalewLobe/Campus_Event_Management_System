@@ -89,7 +89,7 @@ const UpdateEvent = () => {
         required
       />
       <button
-        className="border bg-blue-400 rounded-lg p-2 text-sm font-semibold"
+        className="border bg-red-600 rounded-lg p-2 text-sm font-semibold"
         onClick={handleClick}
       >
         Update Event
